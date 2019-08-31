@@ -1,0 +1,5 @@
+Add-Migration InitialCreate -Project  Persistence -StartupProject API
+
+git init
+git add .
+
