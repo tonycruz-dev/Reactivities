@@ -2,4 +2,7 @@ Add-Migration InitialCreate -Project  Persistence -StartupProject API
 
 git init
 git add .
+git commit -m "initialCommit"
+git remote add origin https://github.com/tonycruz-dev/Reactivities.git
+git push -u origin master
 
