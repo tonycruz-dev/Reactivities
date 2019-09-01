@@ -1,6 +1,7 @@
 Add-Migration InitialCreate -Project  Persistence -StartupProject API
 Add-Migration ActivityEntityAdded -Project  Persistence -StartupProject API
 dotnet ef migrations add "ActivityEntityAdded" -p  Persistence -s API
+dotnet ef database drop -p Persistence/ -s API/
 git init
 git add .
 git commit -m "initialCommit"
