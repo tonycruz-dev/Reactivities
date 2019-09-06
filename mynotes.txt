@@ -8,3 +8,6 @@ git commit -m "initialCommit"
 git remote add origin https://github.com/tonycruz-dev/Reactivities.git
 git push -u origin master
 
+dotnet ef migrations add "AddedIdentity" -p  Persistence -s API
+Add-Migration AddedIdentity -Project  Persistence -StartupProject API
+c:\App-Dev\asp-net\Dev\Reactivities\API>dotnet user-secrets set "TokenKey" "supper secret key"
