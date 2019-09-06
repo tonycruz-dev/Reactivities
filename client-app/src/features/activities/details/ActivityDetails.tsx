@@ -43,3 +43,4 @@ const ActivityDetails: React.FC<RouteComponentProps<DetailParams>> = ({
 };
 
 export default observer(ActivityDetails);
+
