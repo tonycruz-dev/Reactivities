@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
@@ -28,9 +28,9 @@ namespace Application.Activities
                 var activity = await _context.Activities.FindAsync(request.Id);
 
                 if (activity == null)
-                    throw new RestException(HttpStatusCode.NotFound, new { Activity = "Not found" });
+                    throw new RestException(HttpStatusCode.NotFound, new {Activity = "Not found"});
 
-                _context.Remove(activity);
+                _context.Remove(activity);              
 
                 var success = await _context.SaveChangesAsync() > 0;
 
