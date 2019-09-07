@@ -39,3 +39,4 @@ const ActivityListItem: React.FC<{ activity: IActivity }> = ({ activity }) => {
 
 export default ActivityListItem;
 
+
