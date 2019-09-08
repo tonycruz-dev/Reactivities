@@ -52,5 +52,3 @@ const ActivityDetailedSidebar: React.FC<IProps> = ({ attendees }) => {
 };
 
 export default observer(ActivityDetailedSidebar);
-
-
