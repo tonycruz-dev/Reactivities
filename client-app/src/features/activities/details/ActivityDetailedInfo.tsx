@@ -43,3 +43,4 @@ const ActivityDetailedInfo: React.FC<{activity: IActivity}> = ({activity}) => {
 };
 
 export default ActivityDetailedInfo;
+
