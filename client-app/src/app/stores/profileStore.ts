@@ -96,6 +96,7 @@ export default class ProfileStore {
             })
         }
     }
+
     @action updateProfile = async (profile: Partial<IProfile>) => {
         try {
             await agent.Profiles.updateProfile(profile);

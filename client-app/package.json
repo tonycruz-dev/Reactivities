@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@aspnet/signalr": "^1.1.4",
     "@types/cropperjs": "^1.1.5",
     "@types/jest": "24.0.18",
     "@types/node": "12.7.3",
@@ -13,7 +14,7 @@
     "@types/revalidate": "^1.1.2",
     "@types/uuid": "^3.4.5",
     "axios": "^0.19.0",
-    "date-fns": "^2.0.1",
+    "date-fns": "^2.0.0-alpha.13",
     "final-form": "^4.18.5",
     "mobx": "^5.13.0",
     "mobx-react-lite": "^1.4.1",
